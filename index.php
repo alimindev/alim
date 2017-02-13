@@ -23,14 +23,13 @@
 
     <!-- Main Style -->
     <link href="style.css" rel="stylesheet">
-
     <!-- Fonts -->
     <!-- Open Sans for body font -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> -->
     <!-- Raleway for Title -->
-    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'> -->
     <!-- Pacifico for 404 page   -->
-    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'> -->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -54,21 +53,21 @@
   <header id="header">
     <div class="header-inner">
       <!-- Header image -->
-      <img src="assets/images/alim-bg.png" alt="img">
+      <img src="assets/images/header-bg.jpg" alt="img">
       <div class="header-overlay">
         <div class="header-content">
         <!-- Start header content slider -->
-        <h2 class="header-slide">ALIM
+        <h2 class="header-slide">ALIM</font>
           <span>-[ INDEV ]-</span>
           <span>Inovation</span>
           <span>Development</span>
           </h2>
         <!-- End header content slider -->  
         <!-- Header btn area -->
-        <div class="header-btn-area">
-          <!-- <a class="knowmore-btn" href="#">KNOW MORE</a> -->
-          <!-- <a class="download-btn" href="#">DOWNLOAD Theme</a> -->
-          <font style="color: #ffffff;">. . . Scroll Down . . .</font>
+        <div class="header-btn-area main-nav menu-scroll">
+          <center>
+            <a class="knowmore-btn" href="#menu-area">KNOW MORE</a>
+          </center>
         </div>
       </div>
       </div>      
@@ -89,7 +88,7 @@
             <span class="icon-bar"></span>
           </button>
           <!-- LOGO -->                                               
-           <a class="navbar-brand logo" href="index.php"><img src="assets/images/logo.jpg" alt="logo"></a>                      
+           <a class="navbar-brand logo" href="index.php"><img src="assets/images/icon-alim.svg" alt="logo"></a>                      
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav main-nav menu-scroll">
@@ -103,12 +102,12 @@
             <li><a href="#contact">CONTACT</a></li>
           </ul>                            
         </div><!--/.nav-collapse -->
-       <div class="search-area">
+       <!-- <div class="search-area">
           <form action="">
             <input id="search" name="search" type="text" placeholder="What're you looking for ?">
             <input id="search_submit" value="Rechercher" type="submit">
           </form>
-        </div>         
+        </div> -->
       </div>          
     </nav> 
   </section>
@@ -128,52 +127,28 @@
               <p><i class="fa fa-pencil"></i> Our Mission is to build good relationship and be trusted by our partner and provide them with good quality software and best service</p>
             </div>
             <div class="welcome-content">
+
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6">
                   <div class="single-wc-content wow fadeInUp">
-                    <span class="fa fa-users wc-icon"></span>
-                    <h4 class="wc-tittle">Great Partner</h4>
-                    <p>Lets we be little family, hear what you want and make great discussion about all you need to be better together </p>
+                    <center>
+                      <span class="fa fa-users wc-icon"></span>
+                      <h4 class="wc-tittle">Great Partner</h4>
+                      <p>Lets we make great discussion, and find best experience as great partner </p>
+                    </center>
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6">
                   <div class="single-wc-content wow fadeInUp">
-                    <span class="fa fa-sellsy wc-icon"></span>
-                    <h4 class="wc-tittle">Cloud Data</h4>
-                    <p>Store data on cloud, make it easy to access and more secure </p>
+                    <center>
+                      <span class="fa fa-sellsy wc-icon"></span>
+                      <h4 class="wc-tittle">Cloud Data</h4>
+                      <p>Store data on cloud, and make it easy to increase your business </p>
+                    </center>
                   </div>
                 </div>
               </div>
-              <!-- <ul class="wc-table">
-                <li>
-                  <div class="single-wc-content wow fadeInUp">
-                    <span class="fa fa-users wc-icon"></span>
-                    <h4 class="wc-tittle">Great Partner</h4>
-                    <p>Lets we make great discussion, and find best experience as great partner </p>
-                  </div>
-                </li>
-                <li>
-                  <div class="single-wc-content wow fadeInUp">
-                    <span class="fa fa-sellsy wc-icon"></span>
-                    <h4 class="wc-tittle">Cloud Data</h4>
-                    <p>Store data on cloud, and make it easy to increase your business </p>
-                  </div>
-                </li>
-                <li>
-                  <div class="single-wc-content wow fadeInUp">
-                    <span class="fa fa-line-chart wc-icon"></span>
-                    <h4 class="wc-tittle">Business Solution</h4>
-                    <p>Discuss about business problem, and find best technology to make business more better </p>
-                  </div>
-                </li>
-                <li>
-                  <div class="single-wc-content wow fadeInUp">
-                    <span class="fa fa-bus wc-icon"></span>
-                    <h4 class="wc-tittle">Interactive Design</h4>
-                    <p>Good design make products more understanding by many peoples </p>
-                  </div>
-                </li>
-              </ul> -->
+
             </div>
           </div>
           <!-- End welcome area -->
@@ -234,7 +209,7 @@
             <div class="title-area">
               <h2 class="tittle">Our Great Team</h2>
               <span class="tittle-line"></span>
-              <p><i class="fa fa-user-secret"></i> Amazing people that love to make anyone feel happy</p>
+              <!-- <p><i class="fa fa-user-secret"></i> Amazing people that love to make anyone feel happy</p> -->
             </div>
             <!-- Start team content -->
             <div class="col-md-12">
@@ -254,6 +229,21 @@
                       <div class="team-address">
                         <p>Satriyo Hananto</p>
                         <span>Data & System Engineer</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="team-item wildan wow fadeInUp">
+                        <div class="team-info">
+                          <!-- <p> I must explain to you how all this mistaken idea of denouncing pleasure n</p> -->
+                          <a href="https://www.facebook.com/wildan.tr.18?fref=ts"><span class="fa fa-facebook"></span></a>
+                          <a href="https://www.linkedin.com/in/wildan-taufiqurrahman-1371a310a?authType=NAME_SEARCH&authToken=A19w&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A460303099%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1485793764363%2Ctas%3AWilda"><span class="fa fa-linkedin"></span></a>
+                          <!-- <a href="#"><span class="fa fa-pinterest"></span></a>
+                          <a href="#"><span class="fa fa-rss"></span></a> -->
+                        </div>
+                      </div>
+                      <div class="team-address">
+                        <p>Wildan T.R.</p>
+                        <span>WEB Developer</span>
                       </div>
                     </li>
                   </ul>
@@ -304,21 +294,6 @@
                   </div>
                   <div class="team-address">
                     <p>Galang Luhur P.</p>
-                    <span>WEB Developer</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="team-item wildan wow fadeInUp">
-                    <div class="team-info">
-                      <!-- <p> I must explain to you how all this mistaken idea of denouncing pleasure n</p> -->
-                      <a href="https://www.facebook.com/wildan.tr.18?fref=ts"><span class="fa fa-facebook"></span></a>
-                      <a href="https://www.linkedin.com/in/wildan-taufiqurrahman-1371a310a?authType=NAME_SEARCH&authToken=A19w&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A460303099%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1485793764363%2Ctas%3AWilda"><span class="fa fa-linkedin"></span></a>
-                      <!-- <a href="#"><span class="fa fa-pinterest"></span></a>
-                      <a href="#"><span class="fa fa-rss"></span></a> -->
-                    </div>
-                  </div>
-                  <div class="team-address">
-                    <p>Wildan T.R.</p>
                     <span>WEB Developer</span>
                   </div>
                 </li>
@@ -971,11 +946,11 @@
   </section>
   <!-- End Contact section -->
   <!-- Start Google Map -->
-  <section id="google-map">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d293.71154768455796!2d112.59207898644107!3d-7.926806906158877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788221695bd3d9%3A0x43b2bcfff5327992!2sJl.+Semangka+Dermo%2C+Mulyoagung%2C+Dau%2C+Malang%2C+Jawa+Timur+65151!5e0!3m2!1sen!2sid!4v1485657510576" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <!-- <section id="google-map"> -->
+  <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d293.71154768455796!2d112.59207898644107!3d-7.926806906158877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788221695bd3d9%3A0x43b2bcfff5327992!2sJl.+Semangka+Dermo%2C+Mulyoagung%2C+Dau%2C+Malang%2C+Jawa+Timur+65151!5e0!3m2!1sen!2sid!4v1485657510576" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> -->
   <!-- <iframe src=""
    width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe> -->  
-  </section>
+  <!-- </section> -->
   <!-- End Google Map -->
 
   <!-- Start Footer -->    
@@ -985,7 +960,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="footer-top-area">             
-                <a class="footer-logo" href="#"><img src="assets/images/logo.jpg" alt="Logo"></a>              
+                <!-- <a class="footer-logo" href="#"><img src="assets/images/logo.jpg" alt="Logo"></a>               -->
               <div class="footer-social">
                 <a class="facebook" href="https://www.facebook.com/alimindev/?fref=ts"><span class="fa fa-facebook"></span></a>
                 <!-- <a class="twitter" href="#"><span class="fa fa-twitter"></span></a>
@@ -994,13 +969,11 @@
                 <a class="linkedin" href="#"><span class="fa fa-linkedin"></span></a>
                 <a class="dribbble" href="#"><span class="fa fa-dribbble"></span></a> -->
               </div>
+              <p>Designed by Alim Indev with  <a href="http://www.markups.io/" class="text-primary">MarkUps.io</a></p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer-bottom">
-      <p>Designed by Alim Indev with  <a href="http://www.markups.io/">MarkUps.io</a></p>
     </div>
   </footer>
   <!-- End Footer -->

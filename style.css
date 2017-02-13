@@ -204,12 +204,16 @@ img{
 	text-align: center;
 }
 .header-content h2 {
-	font-size: 80px;
+	font-family: "Garton";
+    src: url('assets/fonts/alim/garto16.ttf');
+	font-size: 130px;
 	font-weight: bold;
 	text-transform: uppercase;
 	line-height: 80px;
 }
 .header-content h2 span {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 80px;
 	font-weight: normal;
 	line-height: 93px;
 }
