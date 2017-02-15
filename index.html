@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Alim Indev</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/icon" href="assets/images/fav.png"/>
+    <link rel="shortcut icon" type="image/icon" href="assets/images/fav.svg"/>
     <!-- Font Awesome -->
     <link href="assets/css/font-awesome.css" rel="stylesheet">
     <!-- Bootstrap -->
@@ -19,10 +19,11 @@
     <!-- Animate css -->
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css"/>  
      <!-- Theme color -->
-    <link id="switcher" href="assets/css/theme-color/lite-blue-theme.css" rel="stylesheet">
+    <link id="switcher" href="assets/css/theme-color/purple-theme.css" rel="stylesheet">
 
     <!-- Main Style -->
     <link href="style.css" rel="stylesheet">
+
     <!-- Fonts -->
     <!-- Open Sans for body font -->
     <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> -->
@@ -57,17 +58,16 @@
       <div class="header-overlay">
         <div class="header-content">
         <!-- Start header content slider -->
-        <h2 class="header-slide">ALIM</font>
-          <span>-[ INDEV ]-</span>
+        <h2 class="header-slide">ALIM
+          <span>[ INDEV ]</span>
           <span>Inovation</span>
           <span>Development</span>
           </h2>
         <!-- End header content slider -->  
         <!-- Header btn area -->
-        <div class="header-btn-area main-nav menu-scroll">
-          <center>
-            <a class="knowmore-btn" href="#menu-area">KNOW MORE</a>
-          </center>
+        <div class="header-btn-area main-nav" style="text-align: center;">
+          <a class="knowmore-btn" href="#menu-area">KNOW MORE</a>
+          <a class="download-btn" href="#contact">Contact</a>
         </div>
       </div>
       </div>      
@@ -88,7 +88,7 @@
             <span class="icon-bar"></span>
           </button>
           <!-- LOGO -->                                               
-           <a class="navbar-brand logo" href="index.php"><img src="assets/images/icon-alim.svg" alt="logo"></a>                      
+           <a class="navbar-brand logo" href="index.html"><img src="assets/images/ico-alim.svg" alt="logo"></a>                      
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav main-nav menu-scroll">
@@ -96,18 +96,18 @@
             <li><a href="#about">ABOUT</a></li> 
             <li><a href="#team">TEAM</a></li>                    
             <li><a href="#service">SERVICE</a></li> 
-            <!-- <li><a href="#portfolio">PORTFOLIO</a></li> -->
-            <!-- <li><a href="#pricing-table">PRICE </a></li> -->             
-           <!--  <li><a href="#from-blog">EVENT </a></li> -->      
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <!-- <li><a href="#pricing-table">PRICE </a></li>              -->
+            <!-- <li><a href="#from-blog">BLOG </a></li>       -->
             <li><a href="#contact">CONTACT</a></li>
           </ul>                            
         </div><!--/.nav-collapse -->
-       <!-- <div class="search-area">
+        <!-- <div class="search-area">
           <form action="">
             <input id="search" name="search" type="text" placeholder="What're you looking for ?">
             <input id="search_submit" value="Rechercher" type="submit">
           </form>
-        </div> -->
+        </div> -->         
       </div>          
     </nav> 
   </section>
@@ -120,35 +120,43 @@
         <div class="col-md-12">
           <!-- Start welcome area -->
           <div class="welcome-area">
-            <div
-            <!-- <div class="title-area">
+            <div class="title-area">
               <h2 class="tittle">About <span>Alim Indev</span></h2>
               <span class="tittle-line"></span>
-              <p><i class="fa fa-pencil"></i> Our Mission is to build good relationship and be trusted by our partner and provide them with good quality software and best service</p>
+              <p> Our Mission is to build good relationship and be trusted by our partner and provide them with good quality software and best service</p>
             </div>
             <div class="welcome-content">
-
-              <div class="row">
-                <div class="col-sm-6">
+              <ul class="wc-table">
+                <li>
                   <div class="single-wc-content wow fadeInUp">
-                    <center>
-                      <span class="fa fa-users wc-icon"></span>
-                      <h4 class="wc-tittle">Great Partner</h4>
+                    <span class="fa fa-users wc-icon"></span>
+                    <h4 class="wc-tittle">Great Partner</h4>
                       <p>Lets we make great discussion, and find best experience as great partner </p>
-                    </center>
                   </div>
-                </div>
-                <div class="col-sm-6">
+                </li>
+                <li>
                   <div class="single-wc-content wow fadeInUp">
-                    <center>
-                      <span class="fa fa-sellsy wc-icon"></span>
-                      <h4 class="wc-tittle">Cloud Data</h4>
+                    <span class="fa fa-sellsy wc-icon"></span>
+                    <h4 class="wc-tittle">--------</h4>
+                    <p>----------- </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="single-wc-content wow fadeInUp">
+                    <span class="fa fa-line-chart wc-icon"></span>
+                    <h4 class="wc-tittle">Cloud Data</h4>
                       <p>Store data on cloud, and make it easy to increase your business </p>
                     </center>
                   </div>
-                </div>
-              </div>
-
+                </li>
+                <li>
+                  <div class="single-wc-content wow fadeInUp">
+                    <span class="fa fa-bus wc-icon"></span>
+                    <h4 class="wc-tittle">--------</h4>
+                    <p>----------- </p>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
           <!-- End welcome area -->
@@ -169,9 +177,9 @@
                   <div class="title-area">
                     <h2 class="tittle">About <span>Nex</span> design</h2>
                     <span class="tittle-line"></span>
-                    <p>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illotore itatis et quasi architecto beatae vitae dicta sunt explicabo.</p> 
+                    <p>abcdefghijklmnopqrstuvqxyz</p> 
 
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores e</p>
+                    <p>abcdefghijklmnopqrstuvqxyz</p>
                     <div class="about-btn-area">
                       <a href="#" class="button button-default" data-text="KNOW MORE"><span>KNOW MORE</span></a>
                     </div>                    
@@ -187,17 +195,17 @@
   <!-- End about section -->
 
   <!-- Start call to action -->
-  <!-- <section id="call-to-action">
+  <section id="call-to-action">
     <img src="assets/images/call-to-action-bg.png" alt="img">
     <div class="call-to-overlay">
       <div class="container">
         <div class="call-to-content wow fadeInUp">
-          <h2>The most impressive templete you will find</h2>
+          <h2>Isi Semboyan</h2>
           <a href="#" class="button button-default" data-text="GET IT NOW"><span>GET IT NOW</span></a>
         </div>
       </div>
     </div> 
-  </section> -->
+  </section>
   <!-- End call to action -->
 
   <!-- Start Team action -->
@@ -209,13 +217,11 @@
             <div class="title-area">
               <h2 class="tittle">Our Great Team</h2>
               <span class="tittle-line"></span>
-              <!-- <p><i class="fa fa-user-secret"></i> Amazing people that love to make anyone feel happy</p> -->
+              <!-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p> -->
             </div>
             <!-- Start team content -->
-            <div class="col-md-12">
-              <div class="team-area">
-                <div class="team-content">
-                  <ul class="team-grid">
+            <div class="team-content">
+              <ul class="team-grid">
                     <li>
                       <div class="team-item satriyo wow fadeInUp">
                         <div class="team-info">
@@ -247,10 +253,9 @@
                       </div>
                     </li>
                   </ul>
-                </div>
-              </div>
-            </div>
-            <div class="team-content">
+              
+              <br>
+
               <ul class="team-grid">
                 <li>
                   <div class="team-item valdi wow fadeInUp">
@@ -297,14 +302,10 @@
                     <span>WEB Developer</span>
                   </div>
                 </li>
-              </ul>              
-            </div>                        <!-- End team content -->
-          </div>
-        </div>
-        <div class="col-md-12">
-          <div class="team-area">
-            <!-- Start team content -->
-            <div class="team-content">
+              </ul>
+
+              <br>
+
               <ul class="team-grid">
                 <li>
                   <div class="team-item aaf wow fadeInUp">
@@ -347,7 +348,7 @@
                     </div>
                   </div>
                   <div class="team-address">
-                    <p>Asifatul Muawwanah</p>
+                    <p>Asifatul Muawanah</p>
                     <span>System Analyst</span>
                   </div>
                 </li>
@@ -366,8 +367,9 @@
                     <span>System Analyst</span>
                   </div>
                 </li>
-              </ul>           
-            </div>                        <!-- End team content -->
+              </ul> 
+            </div>
+            <!-- End team content -->
           </div>
         </div>
       </div>
@@ -386,54 +388,31 @@
               <span class="tittle-line"></span>
               <!-- <p>perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore</p> -->
             </div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="single-service wow slideInUp">
+            <!-- service content -->
+            <div class="service-content">
+              <ul class="service-table">
+                <li class="col-md-4 col-sm-6">
+                  <div class="single-service wow slideInUp">
                     <span class="fa fa-globe service-icon"></span>
                     <h4 class="service-title">Website Apps</h4>
                     <p>Build good quality website apps for you with more secure and using latest technology</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="single-service wow slideInUp">
+                  </div>
+                </li>
+                <li class="col-md-4 col-sm-6">
+                  <div class="single-service wow slideInUp">
                     <span class="fa fa-mobile-phone service-icon"></span>
                     <h4 class="service-title">Mobile Apps</h4>
                     <p>Build good quality mobile apps for you with more secure and using latest technology</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="single-service wow slideInUp">
+                  </div>
+                </li>
+                <li class="col-md-4 col-sm-6">
+                 <div class="single-service wow slideInUp">
                     <span class="fa fa-wifi service-icon"></span>
                     <h4 class="service-title">Network Management</h4>
                     <p>Make secure your company network or your home network with good quality network management</p>
-                </div>
-              </div>
-            </div>
-            <!-- service content -->
-            <!-- <div class="service-content">
-              <ul class="service-table">
-                <li class="col-md-3 col-sm-6">
-                  <div class="single-service wow slideInUp">
-                    <span class="fa fa-edit service-icon"></span>
-                    <h4 class="service-title">UX Design</h4>
-                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
                   </div>
                 </li>
-                <li class="col-md-3 col-sm-6">
-                  <div class="single-service wow slideInUp">
-                    <span class="fa fa-sort-amount-asc service-icon"></span>
-                    <h4 class="service-title">Strategy</h4>
-                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                  </div>
-                </li>
-                <li class="col-md-3 col-sm-6">
-                 <div class="single-service wow slideInUp">
-                    <span class="fa fa-map-o service-icon"></span>
-                    <h4 class="service-title">UI Design</h4>
-                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                  </div>
-                </li>
-                <li class="col-md-3 col-sm-6">
+                <!-- <li class="col-md-3 col-sm-6">
                   <div class="single-service wow slideInUp">
                     <span class="fa fa-rocket service-icon"></span>
                     <h4 class="service-title">Analystic</h4>
@@ -467,9 +446,9 @@
                     <h4 class="service-title">Support</h4>
                     <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
                   </div>
-                </li>
+                </li> -->
               </ul>
-            </div> -->
+            </div>
           </div>
         </div>
       </div>
@@ -478,7 +457,7 @@
   <!-- End service section -->
 
   <!-- Start Portfolio section -->
-<!--   <section id="portfolio">
+  <section id="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -486,12 +465,12 @@
             <div class="title-area">
               <h2 class="tittle">Recent portfolio</h2>
               <span class="tittle-line"></span>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
-            </div> -->
+              <!-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p> -->
+            </div>
             <!-- Portfolio content -->
-           <!--  <div class="portfolio-content"> -->
+            <div class="portfolio-content">
                 <!-- portfolio menu -->
-               <!-- <div class="portfolio-menu">
+               <div class="portfolio-menu">
                  <ul>
                    <li class="filter" data-filter="all">All</li>
                    <li class="filter" data-filter=".branding">Branding</li>
@@ -499,9 +478,9 @@
                    <li class="filter" data-filter=".development">Development</li>
                    <li class="filter" data-filter=".photography">Photography</li>
                  </ul>
-               </div> -->
+               </div>
                <!-- Portfolio container -->
-               <!-- <div id="mixit-container" class="portfolio-container">
+               <div id="mixit-container" class="portfolio-container">
                  <div class="single-portfolio mix branding">
                    <div class="single-item">
                      <img src="assets/images/portfolio-img-small1.jpg" alt="img">
@@ -628,7 +607,7 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
   <!-- End Portfolio section -->
 
   <!-- Start counter section -->
@@ -637,9 +616,9 @@
     <div class="counter-overlay">
       <div class="container">
         <div class="row">
-          <div class="col-md-12"> -->
-            <!-- Start counter area -->
-            <!-- <div class="counter-area">
+          <div class="col-md-12">
+
+            <div class="counter-area">
               <div class="col-md-3 col-sm-6 col-xs-6">
                 <div class="single-counter">
                   <span class="fa fa-users"></span>
@@ -694,9 +673,9 @@
               <h2 class="tittle">Pricing table</h2>
               <span class="tittle-line"></span>
               <p>unde omnis iste natus error sit voluptatem accusantium doloremque laudantium  aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
-            </div> -->
-            <!-- service content -->
-<!--             <div class="pricing-table-content">
+            </div>
+
+            <div class="pricing-table-content">
                 <ul class="price-table">
                   <li class="wow slideInUp">
                     <div class="single-price">
@@ -760,32 +739,32 @@
   <!-- End Pricing Table section -->
 
   <!-- Start Testimonial section -->
-  <!-- <section id="testimonial">
+  <section id="testimonial">
     <img src="assets/images/testimonial-bg.jpg" alt="img">
     <div class="counter-overlay">
       <div class="container">
         <div class="row">
-          <div class="col-md-12"> -->
+          <div class="col-md-12">
             <!-- Start Testimonial area -->
-            <!-- <div class="testimonial-area">
+            <div class="testimonial-area">
               <div class="title-area">
                 <h2 class="tittle">What people say about us</h2>
                 <span class="tittle-line"></span>              
               </div>
-              <div class="testimonial-conten"> -->
+              <div class="testimonial-conten">
                 <!-- Start testimonial slider -->
-                <!-- <div class="testimonial-slider"> -->
+                <div class="testimonial-slider">
                   <!-- single slide -->
-                  <!-- <div class="single-slide">
+                  <div class="single-slide">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoquat. Duis aute irure d olor in reprehenderit</p>
                     <div class="single-testimonial">
                       <img class="testimonial-thumb" src="assets/images/testimonial-image1.png" alt="img">
                       <p>Jonna Hike</p>
                       <span>CEO, Themeforest</span>
                     </div>
-                  </div> -->
+                  </div>
                   <!-- single slide -->
-                  <!-- <div class="single-slide">
+                  <div class="single-slide">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoquat. Duis aute irure d olor in reprehenderit</p>
                     <div class="single-testimonial">
                       <img class="testimonial-thumb" src="assets/images/team-member2.png" alt="img">
@@ -800,81 +779,10 @@
         </div>
       </div>
     </div> 
-  </section> -->
+  </section>
   <!-- End Testimonial section -->
 
-  <!-- Start from blog section -->
-  <section id="from-blog">
-    <!-- div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="from-blog-area">
-            <div class="title-area">
-              <h2 class="tittle">Our Event</h2>
-              <span class="tittle-line"></span>
-              <p>Everything that we will do together < workshop, sharing, study club, etc /></p>
-            </div> -->
-            <!-- From Blog content -->
-            <!-- <div class="from-blog-content">
-              <div class="row">
-                <div class="col-md-4">
-                  <article class="single-from-blog">
-                    <figure>
-                      <a href="blog-single.html"><img src="assets/images/gitbelajar.jpeg" alt="img"></a>
-                    </figure>
-                    <div class="blog-title">
-                      <h2><a href="blog-single.html">GIT untuk pemula</a></h2>
-                      <p>Posted by <a class="blog-admin" href="#">admin</a> on <span class="blog-date">19rd januari 2017</span></p>
-                    </div>
-                    <p>Belajar Version Control System (VCS) bareng anak alim, yuk ikut join. :) </p>
-                    <div class="blog-footer">
-                      <a href="#"><span class="fa fa-comment"></span>18 Comments</a>
-                      <a href="#"><span class="fa fa-thumbs-o-up"></span>35 Likes</a>
-                    </div>
-                  </article>
-                </div> -->
-                <!-- <div class="col-md-4">
-                  <article class="single-from-blog">
-                    <figure>
-                      <a href="blog-single.html"><img src="assets/images/photographer.jpg" alt="img"></a>
-                    </figure>
-                    <div class="blog-title">
-                      <h2><a href="blog-single.html">Here is the post title</a></h2>
-                      <p>Posted by <a class="blog-admin" href="#">admin</a> on <span class="blog-date">23rd july 2015</span></p>
-                    </div>
-                    <p>Sed ut perspiciatis unde mnis is te natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis </p>
-                    <div class="blog-footer">
-                      <a href="#"><span class="fa fa-comment"></span>18 Comments</a>
-                      <a href="#"><span class="fa fa-thumbs-o-up"></span>35 Likes</a>
-                    </div>
-                  </article>
-                </div> -->
-                <!-- <div class="col-md-4">
-                  <article class="single-from-blog">
-                    <figure>
-                      <a href="blog-single.html"><img src="assets/images/sealand.jpg" alt="img"></a>
-                    </figure>
-                    <div class="blog-title">
-                      <h2><a href="blog-single.html">Here is the post title</a></h2>
-                      <p>Posted by <a class="blog-admin" href="#">admin</a> on <span class="blog-date">23rd july 2015</span></p>
-                    </div>
-                    <p>Sed ut perspiciatis unde mnis is te natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis </p>
-                    <div class="blog-footer">
-                      <a href="#"><span class="fa fa-comment"></span>18 Comments</a>
-                      <a href="#"><span class="fa fa-thumbs-o-up"></span>35 Likes</a>
-                    </div>
-                  </article>
-                </div> -->
-             <!--  </div>    
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- End from blog section -->
-
-  <!-- <section id="client">
+  <section id="client">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -897,7 +805,7 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
   <!-- Start Contact section -->
   <section id="contact">
     <div class="container">
@@ -905,11 +813,7 @@
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="contact-left wow fadeInLeft">
             <h2>Contact with us</h2>
-            <!-- <address class="single-address">
-              <h4>Postal address:</h4>
-              <p>PO Box 16122 Collins Street West Victoria 8007 Australia</p>
-            </address> -->
-             <address class="single-address">
+            <address class="single-address">
               <h4>Address</h4>
               <p>Jl.Semangka no 17 Dermo, Desa Mulyoagung, kec Dau. Malang</p>
             </address>
@@ -927,7 +831,7 @@
         <div class="col-md-8 col-sm-6 col-xs-12">
           <div class="contact-right wow fadeInRight">
             <h2>Send a message</h2>
-            <form action="mailto:alimindev@gmail.com" enctype="text/plain" method="post" class="contact-form">
+            <form action="mailto:alimindev@gmail.com" class="contact-form">
               <div class="form-group">                
                 <input type="text" class="form-control" placeholder="Name">
               </div>
@@ -946,11 +850,9 @@
   </section>
   <!-- End Contact section -->
   <!-- Start Google Map -->
-  <!-- <section id="google-map"> -->
-  <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d293.71154768455796!2d112.59207898644107!3d-7.926806906158877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788221695bd3d9%3A0x43b2bcfff5327992!2sJl.+Semangka+Dermo%2C+Mulyoagung%2C+Dau%2C+Malang%2C+Jawa+Timur+65151!5e0!3m2!1sen!2sid!4v1485657510576" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> -->
-  <!-- <iframe src=""
-   width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe> -->  
-  <!-- </section> -->
+  <!-- <section id="google-map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d6303.67022361714!2d144.955652!3d-37.817331!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d-37.8173306!2d144.9556518!5e0!3m2!1sen!2sbd!4v1442411159706" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>  
+  </section> -->
   <!-- End Google Map -->
 
   <!-- Start Footer -->    
@@ -959,21 +861,23 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="footer-top-area">             
-                <!-- <a class="footer-logo" href="#"><img src="assets/images/logo.jpg" alt="Logo"></a>               -->
+            <div class="footer-top-area">
+                <!-- <a class="footer-logo">ALIM Indev<img src="assets/images/logo.jpg" alt="Logo"></a>               -->
               <div class="footer-social">
-                <a class="facebook" href="https://www.facebook.com/alimindev/?fref=ts"><span class="fa fa-facebook"></span></a>
+                <a class="facebook" href="#"><span class="fa fa-facebook"></span></a>
                 <!-- <a class="twitter" href="#"><span class="fa fa-twitter"></span></a>
                 <a class="google-plus" href="#"><span class="fa fa-google-plus"></span></a>
                 <a class="youtube" href="#"><span class="fa fa-youtube"></span></a>
                 <a class="linkedin" href="#"><span class="fa fa-linkedin"></span></a>
                 <a class="dribbble" href="#"><span class="fa fa-dribbble"></span></a> -->
               </div>
-              <p>Designed by Alim Indev with  <a href="http://www.markups.io/" class="text-primary">MarkUps.io</a></p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Courtesy design - <a href="http://www.markups.io/">MarkUps.io</a></p>
     </div>
   </footer>
   <!-- End Footer -->
