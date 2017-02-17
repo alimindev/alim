@@ -2397,6 +2397,10 @@ img{
 
 
 @media(max-width:767px ){
+	.bg-menu li a{
+		background-color: #1A95EF;
+		color: white;
+	}
 	.header-content h2 {
 	  font-size: 35px;
 	  line-height: 35px;
@@ -2421,6 +2425,7 @@ img{
 	.main-nav li a {
 	  display: block; 
 	  padding: 8px 7px;
+	  color: white;
 	}
 	.less-padding {
 	  padding: 8px 7px !important;
