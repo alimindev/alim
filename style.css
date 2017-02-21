@@ -742,9 +742,9 @@ img{
 }
 .team-grid li {
 	display: inline-block;
-	height: 230px;
-	margin: 20px 25px;
-	width: 20%;
+	height: 172.5px;
+	margin: 15px 20px;
+	width: 15%;
 }
 .team-item {
 	width: 100%;
@@ -765,32 +765,39 @@ img{
 
 .aaf{
 	background-image: url(assets/images/aaf.jpg);
+	background-size: 100%;
 }
 .afrizal{
 	background-image: url(assets/images/afrizal.jpg);
-	width: 100%;
-	max-width: 500%;
+	background-size: 100%;
 }
 .denny{
 	background-image: url(assets/images/denny.jpg);
+	background-size: 100%;
 }
 .dinda{
 	background-image: url(assets/images/dinda.jpg);
+	background-size: 100%;
 }
 .galang{
 	background-image: url(assets/images/galang.jpg);
+	background-size: 100%;
 }
 .sifa{
 	background-image: url(assets/images/sifa.jpeg);
+	background-size: 100%;
 }
 .satriyo {
 	background-image: url(assets/images/satriyo.jpg);
+	background-size: 100%;
 }
 .wildan {
 	background-image: url(assets/images/wildan.jpeg);
+	background-size: 100%;
 }
 .valdi {
 	background-image: url(assets/images/valdi.jpeg);
+	background-size: 100%;
 }
 
 .team-info {
