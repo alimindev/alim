@@ -173,6 +173,48 @@ img{
 /* HOME HEADER */
 /*--------------------*/
 
+/*Denny style*/
+#hero{
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image:url(assets/images/header_bg.jpg);
+  background-size:cover;
+  position:relative;
+  height:100vh;
+}
+
+.header{
+  position:absolute;
+  top:50%;
+  text-align:center;
+  width:100%;
+  color:#fff;
+  font-size:36px;
+    -ms-transform: translate(0,-50%); /* IE 9 */
+    -webkit-transform: translate(0,-50%); /* Safari */
+    transform: translate(0,-50%);  
+
+}
+
+.overlay {
+  position: relative;
+}
+
+
+.overlay:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: none;
+  z-index:0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: block;
+}
+
+/*Denny style*/
+
 #header{
 	float: left;
 	display: inline;
@@ -184,7 +226,7 @@ img{
 	float: left;	
 	width: 100%;
 }
-.header-inner>img{
+/*.header-inner>img{
 	width: 100%;
 }
 .header-overlay{
@@ -195,7 +237,7 @@ img{
 	top: 0;
 	width: 100%;
 	z-index: 10;
-}
+}*/
 .header-content {
 	float: left;
 	width: 100%;
