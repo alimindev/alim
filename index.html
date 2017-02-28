@@ -1,894 +1,518 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Alim Indev</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/icon" href="assets/images/fav.svg"/>
-    <!-- Font Awesome -->
-    <link href="assets/css/font-awesome.css" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <!-- Slick slider -->
-    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/> 
-    <!-- Fancybox slider -->
-    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
-    <!-- Animate css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css"/>  
-     <!-- Theme color -->
-    <link id="switcher" href="assets/css/theme-color/purple-theme.css" rel="stylesheet">
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-    <!-- Main Style -->
-    <link href="style.css" rel="stylesheet">
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Alim Indev</title>
+	<meta name="description" content="alimindev">  
+	<meta name="author" content="alimindev">
 
-    <!-- Fonts -->
-    <!-- Open Sans for body font -->
-    <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> -->
-    <!-- Raleway for Title -->
-    <!-- <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'> -->
-    <!-- Pacifico for 404 page   -->
-    <!-- <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'> -->
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <!-- BEGAIN PRELOADER -->
-  <div id="preloader">
-    <div class="loader">&nbsp;</div>
-  </div>
-  <!-- END PRELOADER -->
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">
 
-  <!-- SCROLL TOP BUTTON -->
-    <a class="scrollToTop" href="#"><i class="fa fa-chevron-up"></i></a>
-  <!-- END SCROLL TOP BUTTON -->
+   <!-- <link rel="stylesheet" type="text/css" href="css/demo2.css" /> -->
+   <link rel="stylesheet" type="text/css" href="css/component.css" />
+   <script src="js/modernizr.custom.js"></script>
 
-  <!-- Start header section -->  
-  <header>
-      <div id="hero" class="overlay">
-        <div class="header">
-          <div class="header-inner">
-              <div class="header-content">
-              <h2 class="header-slide">ALIM
-                <span>[ INDEV ]</span>
-                <span>Inovation</span>
-                <span>Development</span>
-              </h2>
-              <div class="header-btn-area main-nav" style="text-align: center;">
-                <a class="knowmore-btn" href="#menu-area">KNOW MORE</a>
-                <a class="download-btn" href="#contact">Contact</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </header>
-  <!-- end header -->
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
 
-  <!-- Start menu section -->
-  <section id="menu-area">
-    <nav class="navbar navbar-default main-navbar" role="navigation">  
-      <div class="container">
-        <div class="navbar-header">
-          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <!-- LOGO -->                                               
-           <a class="navbar-brand logo" href="index.html"><img src="assets/images/ico-alim.svg" alt="logo"></a>                      
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul id="top-menu" class="nav navbar-nav main-nav menu-scroll bg-menu">
-            <li class="active"><a href="#header">Home</a></li>
-            <li><a href="#about">ABOUT</a></li> 
-            <li><a href="#team">TEAM</a></li>                    
-            <li><a href="#service">SERVICE</a></li> 
-            <!-- <li><a href="#portfolio">PORTFOLIO</a></li> -->
-            <!-- <li><a href="#pricing-table">PRICE </a></li>              -->
-            <!-- <li><a href="#from-blog">BLOG </a></li>       -->
-            <li><a href="#contact">CONTACT</a></li>
-          </ul>                            
-        </div><!--/.nav-collapse -->
-        <!-- <div class="search-area">
-          <form action="">
-            <input id="search" name="search" type="text" placeholder="What're you looking for ?">
-            <input id="search_submit" value="Rechercher" type="submit">
-          </form>
-        </div> -->         
-      </div>          
-    </nav> 
-  </section>
-  <!-- End menu section -->
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="images/fav.svg">
 
-  <!-- Start about section -->
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <!-- Start welcome area -->
-          <div class="welcome-area">
-            <div class="title-area">
-              <h2 class="tittle">About <span>Alim Indev</span></h2>
-              <span class="tittle-line"></span>
-              <p> Our Mission is to build good relationship and be trusted by our partner and provide them with good quality software and best service</p>
-            </div>
-            <div class="welcome-content">
-              <div class="row" style="text-align: center;">
-                <div class="col-md-4">
-                  <div class="single-wc-content wow fadeInUp">
-                    <span class="fa fa-expand wc-icon"></span>
-                    <h4 class="wc-tittle">SCALABLE</h4>
-                      <p>Lets we make great discussion, and find best experience as great partner </p>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="single-wc-content wow fadeInUp">
-                    <span class="fa fa-check-square-o wc-icon"></span>
-                    <h4 class="wc-tittle">RELIABLE</h4>
-                      <p>Store data on cloud, and make it easy to increase your business </p>
-                    </center>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="single-wc-content wow fadeInUp">
-                    <span class="fa fa-link wc-icon"></span>
-                    <h4 class="wc-tittle">INTEGRATED</h4>
-                      <p>Store data on cloud, and make it easy to increase your business </p>
-                    </center>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End welcome area -->
-        </div>
-      </div>
-      <!-- <div class="row">
-        <div class="col-md-12">
-          <div class="about-area">
-            <div class="row">
-              <div class="col-md-5 col-sm-6 col-xs-12">
-                <div class="about-left wow fadeInLeft">
-                  <img src="assets/images/about-img.jpg" alt="img">
-                  <a class="introduction-btn" href="#">Introduction</a>
-                </div>
-              </div>
-              <div class="col-md-7 col-sm-6 col-xs-12">
-                <div class="about-right wow fadeInRight">
-                  <div class="title-area">
-                    <h2 class="tittle">About <span>Nex</span> design</h2>
-                    <span class="tittle-line"></span>
-                    <p>abcdefghijklmnopqrstuvqxyz</p> 
+</head>
 
-                    <p>abcdefghijklmnopqrstuvqxyz</p>
-                    <div class="about-btn-area">
-                      <a href="#" class="button button-default" data-text="KNOW MORE"><span>KNOW MORE</span></a>
-                    </div>                    
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-    </div>
-  </section> 
-  <!-- End about section -->
+<body id="top">
 
-  <!-- Start call to action -->
-  <!-- <section id="call-to-action">
-    <img src="assets/images/call-to-action-bg.png" alt="img">
-    <div class="call-to-overlay">
-      <div class="container">
-        <div class="call-to-content wow fadeInUp">
-          <h2>Isi Semboyan</h2>
-          <a href="#" class="button button-default" data-text="GET IT NOW"><span>GET IT NOW</span></a>
-        </div>
-      </div>
-    </div> 
-  </section> -->
-  <!-- End call to action -->
+	<!-- header 
+   ================================================== -->
+   <header>
 
-  <!-- Start Team action -->
-  <section id="team">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="team-area">
-            <div class="title-area">
-              <h2 class="tittle">Our Great Team</h2>
-              <span class="tittle-line"></span>
-              <!-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p> -->
-            </div>
-            <!-- Start team content -->
-            <div class="team-content">
-              <ul class="team-grid">
-                    <li>
-                      <div class="team-item satriyo wow fadeInUp">
-                        <div class="team-info">
-                          <!-- <p>Because Data is Forever</p> -->
-                          <a href="https://www.facebook.com/satriyo.hananto?fref=ts"><span class="fa fa-facebook"></span></a>
-                          <a href="https://www.linkedin.com/in/satriyo-hananto-63b16a129?authType=NAME_SEARCH&authToken=gjnP&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A528910607%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1485793873423%2Ctas%3ASatr"><span class="fa fa-linkedin"></span></a>
-                          <!-- <a href="#"><span class="fa fa-pinterest"></span></a>
-                          <a href="#"><span class="fa fa-rss"></span></a> -->
-                        </div>
-                      </div>
-                      <div class="team-address">
-                        <p>Satriyo Hananto</p>
-                        <span>Data & System Engineer</span>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="team-item wildan wow fadeInUp">
-                        <div class="team-info">
-                          <!-- <p> I must explain to you how all this mistaken idea of denouncing pleasure n</p> -->
-                          <a href="https://www.facebook.com/wildan.tr.18?fref=ts"><span class="fa fa-facebook"></span></a>
-                          <a href="https://www.linkedin.com/in/wildan-taufiqurrahman-1371a310a?authType=NAME_SEARCH&authToken=A19w&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A460303099%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1485793764363%2Ctas%3AWilda"><span class="fa fa-linkedin"></span></a>
-                          <!-- <a href="#"><span class="fa fa-pinterest"></span></a>
-                          <a href="#"><span class="fa fa-rss"></span></a> -->
-                        </div>
-                      </div>
-                      <div class="team-address">
-                        <p>Wildan T.R.</p>
-                        <span>WEB Developer</span>
-                      </div>
-                    </li> 
-                    <li>
-                      <div class="team-item aaf wow fadeInUp">
-                        <div class="team-info">
-                          <!-- <p> Without Data, everything are nothing</p> -->
-                          <a href="https://www.facebook.com/aaf.arsoeb.aseseo?fref=ts"><span class="fa fa-facebook"></span></a>
-                          <a href="https://www.linkedin.com/in/abdullah-aaf-a29887117?authType=NAME_SEARCH&authToken=fcFI&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A488885505%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1485793969303%2Ctas%3AAbd"><span class="fa fa-linkedin"></span></a>
-                          <!-- <a href="#"><span class="fa fa-pinterest"></span></a>
-                          <a href="#"><span class="fa fa-rss"></span></a> -->
-                        </div>
-                      </div>
-                      <div class="team-address">
-                        <p>Abdullah Amin F.</p>
-                        <span>WEB Developer</span>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="team-item afrizal wow fadeInUp">
-                        <div class="team-info">
-                          <!-- <p>Act without thought is the beginning of the failure</p> -->
-                          <a href="https://www.facebook.com/rijul.arekhsmaawa?fref=ts"><span class="fa fa-facebook"></span></a>
-                          <a href="https://www.linkedin.com/in/afrizal-wibisono-465a67115?authType=NAME_SEARCH&authToken=8czY&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A483368909%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1485793826310%2Ctas%3AAfri"><span class="fa fa-linkedin"></span></a>
-                          <!-- <a href="#"><span class="fa fa-pinterest"></span></a>
-                          <a href="#"><span class="fa fa-rss"></span></a> -->
-                        </div>
-                      </div>
-                      <div class="team-address">
-                        <p>Afrizal Setyo W.</p>
-                        <span>Mobile Developer</span>                  
-                      </div>
-                    </li>
-                    <li>
-                      <div class="team-item valdi wow fadeInUp">
-                        <div class="team-info">
-                          <!-- <p> Great Soul</p> -->
-                          <a href="https://www.facebook.com/naufaldi.rafifsatriya?fref=ts"><span class="fa fa-facebook"></span></a>
-                          <a href="https://www.linkedin.com/in/naufaldirafif?authType=NAME_SEARCH&authToken=6jwp&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A461530110%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1485793687575%2Ctas%3ANau"><span class="fa fa-linkedin"></span></a>
-                         <!--  <a href="#"><span class="fa fa-pinterest"></span></a>
-                          <a href="#"><span class="fa fa-rss"></span></a> -->
-                        </div>
-                      </div>
-                      <div class="team-address">
-                        <p>Naufaldi Rafif S.</p>
-                        <span>WEB Developer</span>
-                      </div>
-                    </li>
-                  </ul>
-              
-              <br>
-              <br>
-              <br>
+   	<div class="row">
+   		<div class="logo">
+	         <a href="index.html">Khronos</a>
+	      </div> 
 
-              <ul class="team-grid">
-                <li>
-                  <div class="team-item galang wow fadeInUp">
-                    <div class="team-info">
-                      <!-- <p> I must explain to you how all this mistaken idea of denouncing pleasure n</p> -->
-                      <a href="https://www.facebook.com/galnglp?fref=ts"><span class="fa fa-facebook"></span></a>
-                      <a href="https://www.linkedin.com/in/galang-pekerti-b5b83b109?authType=NAME_SEARCH&authToken=lW5S&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A458929079%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1485793725097%2Ctas%3AGala"><span class="fa fa-linkedin"></span></a>
-                      <!-- <a href="#"><span class="fa fa-pinterest"></span></a>
-                      <a href="#"><span class="fa fa-rss"></span></a> -->
-                    </div>
-                  </div>
-                  <div class="team-address">
-                    <p>Galang Luhur P.</p>
-                    <span>WEB Developer</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="team-item denny wow fadeInUp">
-                    <div class="team-info">
-                      <!-- <p> I must explain to you how all this mistaken idea of denouncing pleasure n</p> -->
-                      <a href="https://www.facebook.com/denny.setiachksn?fref=ts"><span class="fa fa-facebook"></span></a>
-                      <a href="https://www.linkedin.com/in/denny-setia-wisnugraha-808035111?authType=NAME_SEARCH&authToken=FFw6&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A468871496%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1485793799506%2Ctas%3ADe"><span class="fa fa-linkedin"></span></a>
-                      <!-- <a href="#"><span class="fa fa-pinterest"></span></a>
-                      <a href="#"><span class="fa fa-rss"></span></a> -->
-                    </div>
-                  </div>
-                  <div class="team-address">
-                    <p>Denny Setia W.</p>
-                    <span>WEB Developer & Designer</span>                  
-                  </div>
-                </li>
-                <li>
-                  <div class="team-item dinda wow fadeInUp">
-                    <div class="team-info">
-                      <!-- <p> I must explain to you how all this mistaken idea of denouncing pleasure n</p> -->
-                      <a href="https://www.facebook.com/inocawa?fref=ts"><span class="fa fa-facebook"></span></a>
-                      <a href="https://www.linkedin.com/in/dinda-ockta-nooryawati-088b05130?authType=NAME_SEARCH&authToken=vXJg&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A540223016%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1485793923664%2Ctas%3ADinda"><span class="fa fa-linkedin"></span></a>
-                      <!-- <a href="#"><span class="fa fa-pinterest"></span></a>
-                      <a href="#"><span class="fa fa-rss"></span></a> -->
-                    </div>
-                  </div>
-                  <div class="team-address">
-                    <p>Dinda Ockta N.</p>
-                    <span>System Analyst</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="team-item sifa wow fadeInUp">
-                    <div class="team-info">
-                      <!-- <p> I must explain to you how all this mistaken idea of denouncing pleasure n</p> -->
-                      <a href="https://www.facebook.com/asifatulmuawanah143?fref=ts"><span class="fa fa-facebook"></span></a>
-                      <a href="https://www.linkedin.com/in/asifatul-mu-awanah-316b06130?authType=NAME_SEARCH&authToken=Fwjp&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A540225090%2CauthType%3ANAME_SEARCH%2Cidx%3A1-3-3%2CtarId%3A1485793903677%2Ctas%3AAsi"><span class="fa fa-linkedin"></span></a>
-                      <!-- <a href="#"><span class="fa fa-pinterest"></span></a>
-                      <a href="#"><span class="fa fa-rss"></span></a> -->
-                    </div>
-                  </div>
-                  <div class="team-address">
-                    <p>Asifatul Muawanah</p>
-                    <span>System Analyst</span>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <!-- End team content -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Start Team action -->
+			<div class="social-links">
+			   <ul>
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				   <li><a href="#"><i class="fa fa-pinterest"></i></a></li>				   
+				   <li><a href="#"><i class="fa fa-instagram"></i></a></li> 
+				   <li><a href="#"><i class="fa fa-dribbble"></i></a></li>				     			
+				</ul>
+			</div>
+   	</div> 
 
-  <!-- Start service section -->
-  <section id="service">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="service-area">
-            <div class="title-area">
-              <h2 class="tittle">How we help you</h2>
-              <span class="tittle-line"></span>
-              <!-- <p>perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore</p> -->
-            </div>
-            <!-- service content -->
-            <div class="service-content">
-              <ul class="service-table">
-                <li class="col-md-4 col-sm-6">
-                  <div class="single-service wow slideInUp">
-                    <span class="fa fa-globe service-icon"></span>
-                    <h4 class="service-title">Website Apps</h4>
-                    <p>Build good quality website apps for you with more secure and using latest technology</p>
-                  </div>
-                </li>
-                <li class="col-md-4 col-sm-6">
-                  <div class="single-service wow slideInUp">
-                    <span class="fa fa-mobile-phone service-icon"></span>
-                    <h4 class="service-title">Mobile Apps</h4>
-                    <p>Build good quality mobile apps for you with more secure and using latest technology</p>
-                  </div>
-                </li>
-                <li class="col-md-4 col-sm-6">
-                 <div class="single-service wow slideInUp">
-                    <span class="fa fa-wifi service-icon"></span>
-                    <h4 class="service-title">Network Management</h4>
-                    <p>Make secure your company network or your home network with good quality network management</p>
-                  </div>
-                </li>
-                <!-- <li class="col-md-3 col-sm-6">
-                  <div class="single-service wow slideInUp">
-                    <span class="fa fa-rocket service-icon"></span>
-                    <h4 class="service-title">Analystic</h4>
-                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                  </div>
-                </li>
-                <li class="col-md-3 col-sm-6">
-                  <div class="single-service wow slideInUp">
-                    <span class="fa fa-car service-icon"></span>
-                    <h4 class="service-title">Usibility</h4>
-                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                  </div>
-                </li>
-                <li class="col-md-3 col-sm-6">
-                  <div class="single-service wow slideInUp">
-                    <span class="fa fa-bank service-icon"></span>
-                    <h4 class="service-title">Business solution</h4>
-                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                  </div>
-                </li>
-                <li class="col-md-3 col-sm-6">
-                  <div class="single-service wow slideInUp">
-                    <span class="fa fa-user-secret service-icon"></span>
-                    <h4 class="service-title">Creative concept</h4>
-                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                  </div>
-                </li>
-                <li class="col-md-3 col-sm-6">
-                  <div class="single-service wow slideInUp">
-                    <span class="fa fa-support service-icon"></span>
-                    <h4 class="service-title">Support</h4>
-                    <p>At vero eos et accusa mus odio in dignissimos ducimus qui anditiis the tatum</p>
-                  </div>
-                </li> -->
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End service section -->
+   </header> <!-- /header -->   
 
-  <!-- Start Portfolio section -->
-  <!-- <section id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="portfolio-area">
-            <div class="title-area">
-              <h2 class="tittle">Recent portfolio</h2>
-              <span class="tittle-line"></span>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
-            </div>
+   <!-- home
+   ================================================== -->
+   <section id="home" class="home-particles">
 
-            <div class="portfolio-content">
+   	<div class="shadow-overlay"></div>
 
-               <div class="portfolio-menu">
-                 <ul>
-                   <li class="filter" data-filter="all">All</li>
-                   <li class="filter" data-filter=".branding">Branding</li>
-                   <li class="filter" data-filter=".design">Design</li>
-                   <li class="filter" data-filter=".development">Development</li>
-                   <li class="filter" data-filter=".photography">Photography</li>
-                 </ul>
-               </div>
+   	<div class="content-wrap-table">		   
 
-               <div id="mixit-container" class="portfolio-container">
-                 <div class="single-portfolio mix branding">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small1.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big1.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="single-portfolio mix design">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small2.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big2.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="single-portfolio mix development">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small3.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big3.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="single-portfolio mix photography">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small4.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big4.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="single-portfolio mix photography">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small5.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big5.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="single-portfolio mix photography">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small6.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big6.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="single-portfolio mix photography">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small7.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big7.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="single-portfolio mix photography">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small2.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big2.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-               </div>      
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- End Portfolio section -->
+		   <div class="main-content-tablecell">
 
-  <!-- Start counter section -->
-  <!-- <section id="counter">
-    <img src="assets/images/counter-bg.jpg" alt="img">
-    <div class="counter-overlay">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
+		   	<div class="row">
+		   		<div class="col-twelve">
 
-            <div class="counter-area">
-              <div class="col-md-3 col-sm-6 col-xs-6">
-                <div class="single-counter">
-                  <span class="fa fa-users"></span>
-                  <div class="counter-count">
-                    <span class="counter">1050</span>
-                    <p>Happy Clients</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-6">
-                <div class="single-counter">
-                  <span class="fa fa-bus"></span>
-                  <div class="counter-count">
-                    <span class="counter">750</span>
-                    <p>Project delivery</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-6">
-                <div class="single-counter">
-                  <span class="fa fa-twitter"></span>
-                  <div class="counter-count">
-                    <span class="counter">2,300</span>
-                    <p>Followers</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-6">
-                <div class="single-counter">
-                  <span class="fa fa-tasks"></span>
-                  <div class="counter-count">
-                    <span class="counter">800</span>
-                    <p>Project done</p>
-                  </div>
-                </div>
-              </div>    
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> 
-  </section> -->
-  <!-- End counter section -->
+		   			<div id="counter">
+		   				<div class="half">
+		   					<span>Alim<sup>indev</sup></span> 
+		   				</div>
+		   			</div>
 
-  <!-- Start Pricing Table section -->
-  <!-- <section id="pricing-table">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="pricing-table-area">
-            <div class="title-area">
-              <h2 class="tittle">Pricing table</h2>
-              <span class="tittle-line"></span>
-              <p>unde omnis iste natus error sit voluptatem accusantium doloremque laudantium  aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
-            </div>
+			  			<div class="bottom-text">
+			  				<h1>Innovation and Development</h1>
+				  			<p>
+				  				Membangun hubungan baik dan menjaga kepercayaan dari pelanggan. Integritas tinggi untuk setiap aplikasi yang dibuat dan servis yang memuaskan.
+				  			</p>
+			  			</div>			  						  			   			
 
-            <div class="pricing-table-content">
-                <ul class="price-table">
-                  <li class="wow slideInUp">
-                    <div class="single-price">
-                      <h4 class="price-header">Basic</h4>
-                      <span class="price-amount">$0.00/mo</span>
-                      <p>5GB Storage</p>
-                      <p>1GB RAM</p>
-                      <p>400GB Bandwidth</p>
-                      <p>10 Email Address</p>
-                      <p>Unlimited access</p>
-                      <p>Forum Support</p>
-                      <a data-text="SIGN UP" class="button button-default" href="#"><span>SIGN UP</span></a>
-                    </div>
-                  </li>
-                  <li class="wow slideInUp">
-                    <div class="single-price standard-price">
-                      <h4 class="price-header">Standard</h4>
-                      <span class="price-amount">$10.00/mo</span>
-                      <p>5GB Storage</p>
-                      <p>1GB RAM</p>
-                      <p>400GB Bandwidth</p>
-                      <p>10 Email Address</p>
-                      <p>Unlimited access</p>
-                      <p>Forum Support</p>
-                      <a data-text="SIGN UP" class="button button-default" href="#"><span>SIGN UP</span></a>
-                    </div>
-                  </li>
-                  <li class="wow slideInUp">
-                    <div class="single-price">
-                      <h4 class="price-header">Advance</h4>
-                      <span class="price-amount">$19.00/mo</span>
-                      <p>5GB Storage</p>
-                      <p>1GB RAM</p>
-                      <p>400GB Bandwidth</p>
-                      <p>10 Email Address</p>
-                      <p>Unlimited access</p>
-                      <p>Forum Support</p>
-                      <a data-text="SIGN UP" class="button button-default" href="#"><span>SIGN UP</span></a>
-                    </div>
-                  </li>
-                  <li class="wow slideInUp">
-                    <div class="single-price">
-                      <h4 class="price-header">Mighty</h4>
-                      <span class="price-amount">$39.00/mo</span>
-                      <p>5GB Storage</p>
-                      <p>1GB RAM</p>
-                      <p>400GB Bandwidth</p>
-                      <p>10 Email Address</p>
-                      <p>Unlimited access</p>
-                      <p>Forum Support</p>
-                      <a data-text="SIGN UP" class="button button-default" href="#"><span>SIGN UP</span></a>
-                    </div>
-                  </li>
-               </ul>     
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- End Pricing Table section -->
+			   	</div> <!-- /twelve --> 
 
-  <!-- Start Testimonial section -->
-  <!-- <section id="testimonial">
-    <img src="assets/images/testimonial-bg.jpg" alt="img">
-    <div class="counter-overlay">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
+			   	<div class="scroll-icon">
 
-            <div class="testimonial-area">
-              <div class="title-area">
-                <h2 class="tittle">What people say about us</h2>
-                <span class="tittle-line"></span>              
-              </div>
-              <div class="testimonial-conten">
+					   <p class="scroll-text">Scroll For More Info</p>
+					   <a href="#info" class="smoothscroll">
+					   	<div class="mouse"></div>
+					   </a>
+				   	<div class="end-top"></div>
 
-                <div class="testimonial-slider">
+					</div> <!-- /scroll-icon -->
+		   	</div> <!-- /row -->  
 
-                  <div class="single-slide">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoquat. Duis aute irure d olor in reprehenderit</p>
-                    <div class="single-testimonial">
-                      <img class="testimonial-thumb" src="assets/images/testimonial-image1.png" alt="img">
-                      <p>Jonna Hike</p>
-                      <span>CEO, Themeforest</span>
-                    </div>
-                  </div>
-                  
-                  <div class="single-slide">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoquat. Duis aute irure d olor in reprehenderit</p>
-                    <div class="single-testimonial">
-                      <img class="testimonial-thumb" src="assets/images/team-member2.png" alt="img">
-                      <p>Jonna Hike</p>
-                      <span>CEO, Themeforest</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> 
-  </section> -->
-  <!-- End Testimonial section -->
+		   </div> <!-- /main-content --> 
+		   
+		</div> <!-- /content-wrap -->
 
-  <!-- <section id="client">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="client-area">
-            <ul class="client-table">
-              <li><img src="assets/images/envato.png" alt="client logo"></li>
-              <li><img src="assets/images/google.png" alt="client logo"></li>
-              <li><img src="assets/images/amazon.png" alt="client logo"></li>
-              <li><img src="assets/images/discovery.png" alt="client logo"></li>
-              <li><img src="assets/images/envato.png" alt="client logo"></li>
-              <li><img src="assets/images/tuenti.png" alt="client logo"></li>
-              <li><img src="assets/images/envato.png" alt="client logo"></li>
-              <li><img src="assets/images/google.png" alt="client logo"></li>
-              <li><img src="assets/images/amazon.png" alt="client logo"></li>
-              <li><img src="assets/images/discovery.png" alt="client logo"></li>
-              <li><img src="assets/images/envato.png" alt="client logo"></li>
-              <li><img src="assets/images/tuenti.png" alt="client logo"></li>                    
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- Start Contact section -->
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <div class="contact-left wow fadeInLeft">
-            <h2>Contact with us</h2>
-            <address class="single-address">
-              <h4>Address</h4>
-              <p>Jl.Semangka no 17 Dermo, Desa Mulyoagung, kec Dau. Malang</p>
-            </address>
-             <address class="single-address">
-              <h4>Phone</h4>
-              <p>(+62) 813 3427 0042</p>
-              <p>(+62) 858 9445 4421</p>
-            </address>
-             <address class="single-address">
-              <h4>E-Mail</h4>
-              <p>contact@alimindev.id</p>
-            </address>
-          </div>
-        </div>
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <div class="contact-right wow fadeInRight">
-            <h2>Send a message</h2>
-            <form action="mailto:alimindev@gmail.com" class="contact-form">
-              <div class="form-group">                
-                <input type="text" class="form-control" placeholder="Name">
-              </div>
-              <div class="form-group">                
-                <input type="email" class="form-control" placeholder="Enter Email">
-              </div>              
-              <div class="form-group">
-                <textarea class="form-control"></textarea>
-              </div>
-              <button type="submit" data-text="SUBMIT" class="button button-default"><span>SUBMIT</span></button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Contact section -->
-  <!-- Start Google Map -->
-  <!-- <section id="google-map">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d6303.67022361714!2d144.955652!3d-37.817331!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d-37.8173306!2d144.9556518!5e0!3m2!1sen!2sbd!4v1442411159706" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>  
-  </section> -->
-  <!-- End Google Map -->
 
-  <!-- Start Footer -->    
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="footer-top-area">
-                <!-- <a class="footer-logo">ALIM Indev<img src="assets/images/logo.jpg" alt="Logo"></a>               -->
-              <div class="footer-social">
-                <a class="facebook" href="#"><span class="fa fa-facebook"></span></a>
-                <!-- <a class="twitter" href="#"><span class="fa fa-twitter"></span></a>
-                <a class="google-plus" href="#"><span class="fa fa-google-plus"></span></a>
-                <a class="youtube" href="#"><span class="fa fa-youtube"></span></a>
-                <a class="linkedin" href="#"><span class="fa fa-linkedin"></span></a>
-                <a class="dribbble" href="#"><span class="fa fa-dribbble"></span></a> -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>Courtesy design - <a href="http://www.markups.io/preview/rex/">Rex</a></p>
-    </div>
-  </footer>
-  <!-- End Footer -->
+   
+   </section> <!-- /home -->
 
-  <!-- initialize jQuery Library --> 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <!-- Bootstrap -->
-  <script src="assets/js/bootstrap.js"></script>
-  <!-- Slick Slider -->
-  <script type="text/javascript" src="assets/js/slick.js"></script>
-  <!-- Counter -->
-  <script type="text/javascript" src="assets/js/waypoints.js"></script>
-  <script type="text/javascript" src="assets/js/jquery.counterup.js"></script>
-  <!-- mixit slider -->
-  <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
-  <!-- Add fancyBox -->        
-  <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
-  <!-- Wow animation -->
-  <script type="text/javascript" src="assets/js/wow.js"></script> 
 
-  <!-- Custom js -->
-  <script type="text/javascript" src="assets/js/custom.js"></script>
-    
-  </body>
+		<div id="cbp-so-scroller" class="cbp-so-scroller">
+			<section class="cbp-so-section">
+				<article class="cbp-so-side cbp-so-side-left">
+					<h2>Product & Servis</h2>
+					<hr>
+					<p>
+						Mobile - <br>
+						WEB - <br>
+						IT Consultant - <br>
+						Computer Network - <br>
+						Design -
+					</p>
+				</article>
+				<figure class="cbp-so-side cbp-so-side-right">
+					<img src="images2/1.png" alt="img01">
+				</figure>
+			</section>
+			<section class="cbp-so-section">
+				<figure class="cbp-so-side cbp-so-side-left">
+					<img src="images2/2.png" alt="img01">
+				</figure>
+				<article class="cbp-so-side cbp-so-side-right">
+					<h2>Mobile</h2>
+					<p>Create and development Android and Hybrid apps.</p>
+				</article>
+			</section>
+			<section class="cbp-so-section">
+				<article class="cbp-so-side cbp-so-side-left">
+					<h2>WEB</h2>
+					<p>Create, development and maintenance your WEB.</p>
+				</article>
+				<figure class="cbp-so-side cbp-so-side-right">
+					<img src="images2/3.png" alt="img01">
+				</figure>
+			</section>
+			<section class="cbp-so-section">
+				<figure class="cbp-so-side cbp-so-side-left">
+					<img src="images2/4.png" alt="img01">
+				</figure>
+				<article class="cbp-so-side cbp-so-side-right">
+					<h2>IT Consultant</h2>
+					<p>Konsultasikan teknologi informasi usaha anda.</p>
+				</article>
+			</section>
+			<section class="cbp-so-section">
+				<article class="cbp-so-side cbp-so-side-left">
+					<h2>Computer Network</h2>
+					<p>Melayani jasa setting jaringan komputer di tempat usaha anda.</p>
+				</article>
+				<figure class="cbp-so-side cbp-so-side-right">
+					<img src="images2/5.png" alt="img01">
+				</figure>
+			</section>
+			<section class="cbp-so-section">
+				<figure class="cbp-so-side cbp-so-side-left">
+					<img src="images2/6.png" alt="img01">
+				</figure>
+				<article class="cbp-so-side cbp-so-side-right">
+					<h2>Design</h2>
+					<p>Desain apps, poster, browser, dll.</p>
+				</article>
+			</section>
+		</div>
+
+	<script src="js/classie.js"></script>
+	<script src="js/cbpScroller.js"></script>
+	<script>
+		new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
+	</script>
+
+
+
+   <!-- info
+   ================================================== -->
+   <section id="info">
+
+   	<div class="info-overlay"></div>
+
+   	<div class="row">   		
+   		<div class="col-twelve tabs-wrap">
+
+   			<ul class="tabs"> 
+   				<li class="active" data-id="tab-about"><i class="icon-user"></i><span>About</span></li>
+   				<li data-id="tab-contact"><i class="icon-mail"></i><span>Contact</span></li>							
+					<li data-id="tab-subscribe"><i class="icon-newspaper"></i><span>Subscribe</span></li>				
+				</ul> <!-- /tabs -->
+
+				<div class="tab-container">
+
+					<!-- tab content - about
+   				================================================== -->
+					<div id="tab-about" class="tab-content">
+						
+					   <div class="tab-entry">
+
+					   	<div class="row tab-entry-intro">
+					   		<div class="col-twelve with-bottom-line">
+
+					   			<h1>Get To Know Us.</h1>
+
+					   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+					   		</div>   		
+					   	</div> <!-- /tab-content-intro -->
+
+					   	<div class="row about-content tab-entry-content">
+					     		
+					   		<div class="about-list block-1-3 block-s-1-2 block-tab-full">
+
+						      	<div class="bgrid item">	
+
+						      		<span class="icon"><i class="icon-mobile"></i></span>            
+
+						            <div class="item-content">	
+
+						            	 <h3 class="h05">Fully Resposive</h3>
+
+							            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+						         		</p>
+						         		
+						         	</div> 	         	 
+
+									</div> <!-- /bgrid -->
+
+									<div class="bgrid item">	
+
+										<span class="icon"><i class="icon-eye"></i></span>                          
+
+						            <div class="item-content">	
+						            	<h3 class="h05">Retina Ready</h3>  
+
+							            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+						         		</p>
+
+						         		
+						            </div>	                          
+
+								   </div> <!-- /bgrid -->
+
+								   <div class="bgrid item">
+
+								   	<span class="icon"><i class="icon-pencil-ruler"></i></span>		            
+
+						            <div class="item-content">
+						            	<h3 class="h05">Stylish Design</h3>
+
+							            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+						        			</p> 
+
+						        			
+						            </div> 	            	               
+
+								   </div> <!-- /bgrid -->
+
+									<div class="bgrid item">
+
+										<span class="icon"><i class="icon-objects"></i></span>	              
+
+						            <div class="item-content">
+						            	<h3 class="h05">Clean Code</h3>
+
+							            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+						         		</p> 
+
+						         		
+						            </div>                
+
+									</div> <!-- /bgrid -->
+
+								   <div class="bgrid item">
+
+								   	<span class="icon"><i class="icon-sliders"></i></span>	            
+
+						            <div class="item-content">	
+						            	<h3 class="h05">Easy To Customize</h3>
+
+							            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+						        			</p> 
+
+						        			
+						            </div>	               
+
+								   </div> <!-- /bgrid -->
+
+								   <div class="bgrid item">
+
+								   	<span class="icon"><i class="icon-gift"></i></span>	   	           
+
+						            <div class="item-content">
+						            	 <h3 class="h05">Free of Charge</h3>
+
+							            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+						        			</p> 
+						        			
+						            </div>	               
+
+								   </div> <!-- /bgrid -->
+
+						      </div> <!-- /about-list --> 
+
+					     	</div> <!-- /row about-content -->
+					     		
+					   </div> <!-- /tab-entry -->
+
+					</div> <!-- /tab-about -->	
+
+
+					<!-- tab content contact
+   				================================================== -->
+					<div id="tab-contact" class="tab-content">
+
+						<div class="tab-entry">
+
+							<div class="row tab-entry-intro">
+					   		<div class="col-twelve with-bottom-line">
+
+					   			<h1>Get In Touch.</h1>
+
+					   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+					   		</div>   		
+					   	</div> <!-- /tab-content-intro -->
+
+					   	<div class="row form-wrap tab-entry-content">
+					   		<div class="col-twelve">
+
+					            <!-- form -->
+					            <form name="contactForm" id="contactForm" method="post" action="">
+					      			<fieldset>
+
+					                  <div class="form-field">
+					 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+					                  </div>
+					                  <div class="form-field">
+						      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+						               </div>
+					                  <div class="form-field">
+						     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+						               </div>                       
+					                  <div class="form-field">
+						                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+						               </div>                      
+					                 <div class="form-field">
+					                     <button class="submitForm button button-primary large">Submit</button>
+
+					                     <div id="submit-loader">
+					                        <div class="text-loader">Sending...</div>                             
+					       				      <div class="s-loader">
+													  	<div class="bounce1"></div>
+													  	<div class="bounce2"></div>
+													  	<div class="bounce3"></div>
+													</div>
+												</div><!-- submit-loader -->
+					                  </div>
+
+					      			</fieldset>
+					      		</form> <!-- /form -->
+
+					            <!-- contact-warning -->
+					            <div id="message-warning">            	
+					            </div>            
+					            <!-- contact-success -->
+					      		<div id="message-success">
+					               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+					      		</div>
+
+					         </div> <!-- /col-twelve -->					   		
+					   	</div> <!-- /row contact-form -->
+
+						</div> <!-- /tab-entry --> 					
+
+					</div> <!-- /tab-contact -->
+
+
+					<!-- tab content - subscribe
+   				================================================== -->
+					<div id="tab-subscribe" class="tab-content">
+
+						<div class="tab-entry">
+
+							<div class="row tab-entry-intro">
+					   		<div class="col-twelve with-bottom-line">
+
+					   			<h1>Subcribe To Our Newsletter.</h1>
+
+					   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+					   		</div>   		
+					   	</div> <!-- /tab-content-intro -->
+
+					   	<div class="row form-wrap tab-entry-content">
+					   		<div class="col-twelve">
+
+					   			<form id="mc-form" class="group" novalidate="true">
+
+										<div class="form-field">					
+						   				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="">					   				
+						   			</div>
+
+							   		<div class="form-field">	
+							   			<input type="submit" value="Get Notified" name="subscribe" class="button button-primary large">
+							   		</div>
+
+							   		<label for="mce-EMAIL" class="subscribe-message"></label>
+									
+									</form>
+
+					   		</div> <!-- /twelve -->
+					   	</div> <!-- subscribe-form -->
+
+						</div> <!-- /tab-entry --> 						
+
+					</div> <!-- /tab-subscribe -->										
+
+				</div> <!-- /tab-container -->
+   			
+   		</div> <!-- twelve -->
+   	</div> <!-- row -->   	
+
+   </section> <!-- /info -->
+
+
+   <!-- CTA Section
+   ================================================== -->
+	<section id="cta">
+
+   	<div class="row cta-wrap">
+
+   		<div class="col-twelve cta-content">  
+
+	     		<h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Styleshout Recommends Dreamhost.</a></h2>
+
+		      <p class="lead">
+		      Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
+				Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>. 
+				<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->	
+				</p>
+
+				<div class="action">
+			      <a class="button large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Sign Up Now</a>
+		      </div>		     	
+
+   		</div>
+
+   	</div> <!-- /cta-content -->
+
+   </section> <!-- /cta --> 
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+   	<div class="social-wrap">
+   		<div class="row">
+				
+	         <ul class="footer-social-list">
+	            <li><a href="#">
+	             	<i class="fa fa-facebook"></i><span>Facebook</span>
+	            </a></li>
+	            <li><a href="#">
+	              	<i class="fa fa-twitter"></i><span>Twitter</span>
+	            </a></li>
+	            <li><a href="#">
+	              	<i class="fa fa-pinterest"></i><span>Pinterest</span>
+	            </a></li>
+	            <li><a href="#">
+	              	<i class="fa fa-instagram"></i><span>Instagram</span>
+	            </a></li>
+	            <li><a href="#">
+	              	<i class="fa fa-dribbble"></i><span>Dribbble</span>
+	            </a></li>
+	         </ul>
+	         
+			</div> <!-- /row -->
+   	</div> <!-- /social-wrap -->
+
+   	<div class="footer-bottom">
+
+			<div class="footer-logo">
+					<img src="images/footer-logo.png" alt="">				
+			</div>
+
+   		<div class="copyright">
+		     	<span>© Copyright Khronos 2016.</span> 
+		     	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>		         	
+		   </div>		   
+
+   	</div> <!-- /footer-bottom -->
+
+   	<div class="back-to-top">
+		 	<a href="#top" class="smoothscroll"><span>Back to Top</span></a>
+		</div>
+
+   </footer>
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
 </html>
